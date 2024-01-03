@@ -1,13 +1,28 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./navbar.css";
 import hamburger from "../../icons/menu.png";
 
 const Navbar = () => {
   const [isDropdownVisible, setDropdownVisibility] = useState(false);
+  const dropdownRef = useRef(null);
 
   const toggleDropdown = () => {
     setDropdownVisibility(!isDropdownVisible);
   };
+
+  const handleOutsideClick = (event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setDropdownVisibility(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("click", handleOutsideClick);
+
+    return () => {
+      document.removeEventListener("click", handleOutsideClick);
+    };
+  }, []);
 
   return (
     <>
@@ -21,7 +36,10 @@ const Navbar = () => {
           <div className="anchor-link">Our Story</div>
           <div
             className={`hamburger ${isDropdownVisible ? "active" : ""}`}
-            onClick={toggleDropdown}
+            onClick={(e) => {
+              toggleDropdown();
+              e.stopPropagation();
+            }}
           >
             <img
               className="hamburger-icon"
@@ -32,24 +50,21 @@ const Navbar = () => {
               className={`dropdown ${
                 isDropdownVisible ? "slideInFromTop" : "slideOutToTop"
               }`}
+              ref={dropdownRef}
             >
               <div className="dropdown-link">
                 <span>Higher Ed</span>
               </div>
               <div className="dropdown-link">
-                {" "}
                 <span>Enterprise</span>
               </div>
               <div className="dropdown-link">
-                {" "}
                 <span>Hospitals</span>
               </div>
               <div className="dropdown-link">
-                {" "}
                 <span>Children's Book</span>
               </div>
               <div className="dropdown-link">
-                {" "}
                 <span>Our Story</span>
               </div>
             </div>

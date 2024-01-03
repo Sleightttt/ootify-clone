@@ -27,26 +27,8 @@
   color: rgb(18, 85, 178);
 }
 
-@keyframes slideInFromTop {
-  0% {
-    transform: translateY(-10px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slideOutToTop {
-  0% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(-10px);
-    opacity: 0;
-  }
+.logo:hover {
+  cursor: pointer;
 }
 
 .hamburger {
@@ -90,14 +72,41 @@
 }
 
 .dropdown-link > span {
-  border-bottom: 2px solid transparent; /* Initially transparent */
+  border-bottom: 2px solid transparent;
   transition: border-bottom 0.3s ease, transform 0.3s ease;
 }
 
 .dropdown-link > span:hover {
   border-bottom: 2px solid rgb(18, 85, 178);
-  transform: translateY(-2px); /* Adjust the value based on your preference */
+  transform: translateY(-2px);
 }
+
+/* Dropdown animations */
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutToTop {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+}
+
+/* Media queries */
+
 @media screen and (max-width: 992px) {
   .anchor-link {
     display: none;
@@ -110,6 +119,10 @@
 
   .hamburger {
     display: flex;
+  }
+
+  .hamburger:hover {
+    cursor: pointer;
   }
 
   .hamburger-icon {
