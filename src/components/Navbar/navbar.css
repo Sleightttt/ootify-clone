@@ -1,9 +1,17 @@
 /* Navigation Bar */
 
 .nav-container {
+  display: flex;
+  flex-direction: row;
   height: 53px;
-  width: 60%;
+  width: 100%;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.anchor-container {
   font-size: 15px;
+  width: 50%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -13,7 +21,99 @@
 }
 
 .logo {
-  font-size: 30px;
+  padding: 20px;
+  font-size: 28px;
   font-weight: bold;
   color: rgb(18, 85, 178);
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutToTop {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+}
+
+.hamburger {
+  display: none;
+}
+
+.dropdown {
+  position: absolute;
+  align-items: center;
+  top: 50px;
+  right: 0px;
+  width: 170px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ddd;
+  padding: 10px;
+  z-index: 1;
+  box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.1);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.3s, opacity 0.3s ease;
+}
+
+.slideInFromTop {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 0.3s ease;
+}
+
+.slideOutToTop {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.3s, opacity 0.3s ease;
+}
+
+.dropdown-link {
+  padding: 8px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.dropdown-link > span {
+  border-bottom: 2px solid transparent; /* Initially transparent */
+  transition: border-bottom 0.3s ease, transform 0.3s ease;
+}
+
+.dropdown-link > span:hover {
+  border-bottom: 2px solid rgb(18, 85, 178);
+  transform: translateY(-2px); /* Adjust the value based on your preference */
+}
+@media screen and (max-width: 992px) {
+  .anchor-link {
+    display: none;
+  }
+
+  .anchor-container {
+    justify-content: flex-end;
+    width: 80%;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .hamburger-icon {
+    display: flex;
+    height: 15px;
+  }
 }
