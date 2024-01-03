@@ -1,0 +1,19 @@
+/* Navigation Bar */
+
+.nav-container {
+  height: 53px;
+  width: 60%;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(18, 85, 178);
+}
