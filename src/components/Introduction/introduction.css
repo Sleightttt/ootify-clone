@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   font-family: "Roboto", sans-serif;
-  background-image: url("../../icons/ootify-intro-bg.png");
+  /* background-image: url("../../icons/ootify-intro-bg.png"); */
 }
 
 .intro-h1 {
@@ -32,4 +32,9 @@
   border: none;
   color: white;
   background-color: rgb(18, 85, 178);
+}
+
+.namaste {
+  display: flex;
+  align-self: center;
 }

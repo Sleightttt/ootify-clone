@@ -13,12 +13,15 @@
   display: flex;
   flex-direction: column;
   margin: 60px;
+  margin-top: 10px;
 }
 
 .bf-body {
   margin-top: 30px;
   font-weight: 500;
-  line-height: 30px;
+  line-height: 28px;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .bf-header {

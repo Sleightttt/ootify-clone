@@ -6,6 +6,7 @@ import Bestfriend from "./components/Bestfriend";
 import Mental from "./components/Mental";
 import Notsure from "./components/Notsure";
 import How from "./components/How";
+import Whowehelp from "./components/Whowehelp";
 
 import "./app.css";
 
@@ -20,6 +21,7 @@ function App() {
         <Mental />
         <Notsure />
         <How />
+        <Whowehelp />
       </header>
     </div>
   );

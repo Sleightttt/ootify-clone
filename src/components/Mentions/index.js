@@ -14,6 +14,7 @@ const Mentions = () => {
               src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64ac8ccb9234a64c37c25fdc_abl%20logo.png"
             />
             <img
+              className="pcmag"
               alt="pc mag"
               src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/649781ba88cce2161941ce5c_pcmag.svg"
             />

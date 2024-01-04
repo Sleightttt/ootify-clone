@@ -12,6 +12,7 @@
   align-items: center;
   height: 200px;
   width: 90%;
+
   background-color: white;
   border-radius: 30px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
@@ -36,4 +37,15 @@
 .league {
   height: 30px;
   width: 150px;
+}
+
+.pcmag {
+  height: 80px;
+  width: 150px;
+}
+
+.logo-container > img {
+  max-width: 100%; /* Set a maximum width to prevent images from growing too large */
+
+  width: 16%; /* Adjust this value based on your design preferences */
 }
