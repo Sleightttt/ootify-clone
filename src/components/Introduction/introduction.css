@@ -1,0 +1,35 @@
+.introduction {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background-image: url("../../icons/ootify-intro-bg.png");
+}
+
+.intro-h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.intro-p {
+  font-size: 17px;
+  width: 460px;
+  height: auto;
+  text-align: center;
+  margin: 5px;
+}
+
+.begin-button {
+  margin: 25px;
+  height: 38px;
+  font-size: 15px;
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: rgb(18, 85, 178);
+}

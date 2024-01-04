@@ -1,0 +1,31 @@
+/* bestfriend section */
+
+.bf-container {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif;
+
+  margin: 50px;
+}
+
+.bf-text {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+}
+
+.bf-body {
+  margin-top: 30px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.bf-header {
+  font-size: 44px;
+  text-align: start;
+}
+
+.bf-ani {
+  height: 300px;
+}

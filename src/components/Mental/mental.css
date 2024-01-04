@@ -1,0 +1,29 @@
+.mental-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+.round-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 300px;
+  background-color: rgb(231, 231, 231);
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.mental-header {
+  font-weight: bold;
+  font-size: 38px;
+  margin: 0px 20%;
+}
+
+.mental-body {
+  margin: 14px 20%;
+  line-height: 30px;
+  font-size: 22px;
+}

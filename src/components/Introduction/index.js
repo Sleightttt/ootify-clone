@@ -3,23 +3,20 @@ import "./introduction.css";
 
 const Introduction = () => {
   return (
-    <div className="introduction-container">
-      <div className="introduction-text">
-        <div className="introduction-header">What is OOTify?</div>
-        <div className="introduction-body">
-          OOTify is a mental health platform that provides a safe space for
-          individuals to share their stories, connect with others, and find
-          resources to help them on their mental health journey.
+    <>
+      <section className="introduction">
+        <h1 className="intro-h1"> We're here to lift you up.</h1>
+        <div className="intro-p">
+          A digital, research-backed companion that gathers and provides
+          resources to help you navigate your mental health.
         </div>
-      </div>
-      <div className="introduction-image-container">
         <img
-          className="introduction-image"
-          alt="ootify-introduction"
-          src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f6a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVudGFsJTIwaGVhbHRofGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+          alt="arrow down"
+          src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/649775d7eaa2f396e6a9e70b_Arrow.svg"
         />
-      </div>
-    </div>
+        <button className="begin-button">Begin Your Journey</button>
+      </section>
+    </>
   );
 };
 
