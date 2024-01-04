@@ -1,4 +1,5 @@
 .who-section {
+  margin: 60px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -7,6 +8,7 @@
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
+  margin: 0 60px;
 }
 
 .who-card {
@@ -17,6 +19,14 @@
   border-radius: 30px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+.who-card:hover {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
 
 .card-header {
@@ -31,4 +41,18 @@
   text-align: start;
   margin: 5px 30px;
   width: 200px;
+}
+
+.learn {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(18, 85, 178);
+  margin-top: 15px;
+  margin-right: 20px;
+  align-self: flex-end;
+}
+
+.learn:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

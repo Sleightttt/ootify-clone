@@ -1,9 +1,14 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 button:hover {
   cursor: pointer;
   border: solid 1px rgb(250, 250, 250);
+}
+
+p {
+  font-family: "Roboto", sans-serif;
 }

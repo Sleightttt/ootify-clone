@@ -7,7 +7,9 @@ import Mental from "./components/Mental";
 import Notsure from "./components/Notsure";
 import How from "./components/How";
 import Whowehelp from "./components/Whowehelp";
-
+import Tools from "./components/Tools";
+import Ourteam from "./components/Ourteam";
+import Footer from "./components/Footer";
 import "./app.css";
 
 function App() {
@@ -22,6 +24,9 @@ function App() {
         <Notsure />
         <How />
         <Whowehelp />
+        <Tools />
+        <Ourteam />
+        <Footer />
       </header>
     </div>
   );

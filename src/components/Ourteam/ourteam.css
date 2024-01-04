@@ -1,0 +1,64 @@
+.our-team {
+  display: flex;
+  flex-direction: column;
+}
+
+.our-h {
+  font-size: 24px;
+  font-weight: bold;
+
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.logo-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-item {
+  height: 60px;
+  margin: 10px;
+}
+
+.logo-item2 {
+  height: 40px;
+  margin: 10px;
+}
+.logo-item3 {
+  height: 90px;
+  margin: 10px;
+}
+
+.advisory-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.advisor {
+  height: 180px;
+  width: 180px;
+  margin: 10px;
+}
+
+.ad-name {
+  text-align: center;
+  font-weight: 500;
+}
+
+.ad-h {
+  font-size: 18px;
+  margin-top: 80px;
+  align-self: center;
+  font-weight: bold;
+}
+
+.ad-text {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 5% 10%;
+  line-height: 28px;
+}
