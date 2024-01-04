@@ -1,0 +1,117 @@
+.how-section {
+  display: flex;
+  flex-direction: column;
+
+  margin: 60px;
+  font-family: "Roboto", sans-serif;
+}
+
+.how-it-works {
+  font-size: 20px;
+  margin: 60px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.support-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+
+  width: 80%;
+}
+
+.support-h {
+  padding: 30px;
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  width: 400px;
+  height: 80px;
+}
+
+.drawer-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.drawers {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.drawer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.drawer-h {
+  margin: 20px;
+  margin-left: 60px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.drawer-pic {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 50%;
+}
+
+.drawer-body {
+  padding: 20px;
+  padding-top: 5px;
+  text-align: start;
+  width: 60%;
+  line-height: 24px;
+  align-self: center;
+  color: rgb(86, 86, 86);
+}
+
+.top-image {
+  align-self: center;
+  justify-content: center;
+  height: 540px;
+  z-index: 1;
+  top: -10px; /* Adjust the value based on your preference */
+  animation: tiltFadeInAnimation 0.5s ease-in-out forwards;
+  opacity: 0; /* Start with opacity set to 0 */
+}
+
+.bottom-image {
+  animation: tiltFadeInBottomAnimation 0.5s ease-in-out forwards;
+  opacity: 0; /* Start with opacity set to 0 */
+}
+
+@keyframes tiltFadeInAnimation {
+  0% {
+    transform: rotate(-5deg);
+    opacity: 0;
+    top: -40px;
+  }
+
+  100% {
+    transform: rotate(0deg);
+    opacity: 1; /* Ensure opacity remains 1 at the end */
+  }
+}
+
+@keyframes tiltFadeInBottomAnimation {
+  0% {
+    transform: rotate(5deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotate(0deg);
+    opacity: 1; /* Ensure opacity remains 1 at the end */
+  }
+}
+.bottom-image,
+.top-image {
+  position: absolute;
+}

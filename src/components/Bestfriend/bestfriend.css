@@ -5,7 +5,7 @@
   flex-direction: row;
   font-family: "Roboto", sans-serif;
 
-  margin: 50px;
+  margin: 60px;
 }
 
 .bf-text {
@@ -17,8 +17,8 @@
 
 .bf-body {
   margin-top: 30px;
-  font-weight: 400;
-  line-height: 25px;
+  font-weight: 500;
+  line-height: 30px;
 }
 
 .bf-header {
@@ -28,4 +28,14 @@
 
 .bf-ani {
   height: 300px;
+}
+
+.review-container {
+  display: flex;
+  align-self: flex-end;
+  width: 50%;
+  background-color: rgb(231, 231, 231);
+  height: 40px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
 }
