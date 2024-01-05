@@ -22,11 +22,13 @@
   line-height: 28px;
   font-size: 18px;
   letter-spacing: 1px;
+  font-family: "Urbanist", sans-serif;
 }
 
 .bf-header {
   font-size: 44px;
   text-align: start;
+  font-family: "Lexend", sans-serif;
 }
 
 .bf-ani {

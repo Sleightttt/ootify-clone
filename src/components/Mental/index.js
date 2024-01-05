@@ -12,8 +12,10 @@ const Mental = () => {
           <div className="mental-body">
             We tackle this by taking care of our providers, providing access to
             multiple evidence-based solutions, and ensuring a delightful
-            experience. We do this at scale with enterprises to provide better
-            outcomes and value-based, personalized care.
+            experience. We do this at scale with enterprises to{" "}
+            <span style={{ fontWeight: "bold" }}>
+              provide better outcomes and value-based, personalized care.
+            </span>
           </div>
         </div>
         <div className="review-container">

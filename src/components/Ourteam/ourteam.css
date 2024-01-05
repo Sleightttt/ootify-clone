@@ -53,12 +53,14 @@
   font-size: 18px;
   margin-top: 80px;
   align-self: center;
-  font-weight: bold;
+  font-weight: 600;
+  font-family: "Urbanist", sans-serif;
 }
 
 .ad-text {
-  font-weight: 500;
   font-size: 18px;
+  font-weight: 500;
   margin: 5% 10%;
   line-height: 28px;
+  font-family: "Urbanist", sans-serif;
 }

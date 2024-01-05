@@ -17,14 +17,16 @@
   font-weight: bold;
   letter-spacing: 2px;
   text-align: start;
+  font-family: "Urbanist", sans-serif;
 }
 
 .footer-h2 {
   margin-top: 40px;
-  font-size: 38px;
+  font-size: 44px;
   font-weight: bold;
-  letter-spacing: 2px;
+
   text-align: start;
+  font-family: "Lexend", sans-serif;
 }
 
 .footer-links {
