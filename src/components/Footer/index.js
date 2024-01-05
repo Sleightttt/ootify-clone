@@ -6,7 +6,12 @@ const Footer = () => {
     <>
       <section className="footer">
         <div className="footer-container">
-          <div className="footer-h">OOTify</div>
+          <div className="footer-h">
+            <img
+              alt="ootify logo"
+              src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/649b641defdd47493742c561_OOTify_logo_white.svg"
+            />
+          </div>
           <div className="footer-h2">One Place to Lift You Up.</div>
 
           <div className="footer-links">

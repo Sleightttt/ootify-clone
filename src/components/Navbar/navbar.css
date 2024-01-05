@@ -19,11 +19,16 @@
   font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
-
+.ootify-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
 .logo {
-  padding: 20px;
-  font-size: 28px;
-  font-weight: bold;
+  padding: 30px;
+
+  height: 33px;
+  width: 100px;
   color: rgb(18, 85, 178);
 }
 

@@ -27,7 +27,13 @@ const Navbar = () => {
   return (
     <>
       <div className="nav-container">
-        <div className="logo">OOTify</div>
+        <div className="ootify-logo">
+          <img
+            className="logo"
+            src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/654046e04635d071fc8c9839_OOTify%20logo.svg"
+            alt="blue ootify logo"
+          />
+        </div>
         <div className="anchor-container">
           <div className="anchor-link">Higher Ed</div>
           <div className="anchor-link">Enterprise</div>
