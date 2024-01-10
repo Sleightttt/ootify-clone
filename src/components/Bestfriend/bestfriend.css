@@ -4,8 +4,11 @@
   display: flex;
   flex-direction: row;
   font-family: "Roboto", sans-serif;
-
-  margin: 60px;
+  background-image: url("https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/649b4e9bc9ae6cf48b2d204d_blue%20abstract%20bg%20small.svg");
+  padding: 170px 20px;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bf-text {
