@@ -18,10 +18,12 @@ function App() {
       <header className="App-header">
         <Navbar />
         <Introduction />
-        <Mentions />
-        <Bestfriend />
-        <Mental />
-        <Notsure />
+        <div className="blue-bg">
+          <Mentions />
+          <Bestfriend />
+          <Mental />
+          <Notsure />
+        </div>
         <How />
         <Whowehelp />
         <Tools />

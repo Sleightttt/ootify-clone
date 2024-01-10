@@ -19,9 +19,10 @@
 }
 
 .mention-h {
-  font-family: "Roboto", sans-serif;
+  font-family: "Urbanist", sans-serif;
   margin: 10px;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .logo-container {
@@ -46,4 +47,6 @@
   max-width: 100%; /* Set a maximum width to prevent images from growing too large */
 
   width: 16%; /* Adjust this value based on your design preferences */
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }

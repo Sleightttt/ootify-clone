@@ -12,3 +12,13 @@ button:hover {
 p {
   font-family: "Roboto", sans-serif;
 }
+
+.blue-bg {
+  background-image: url("https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/6497d1b1d785073a5d56f184_blue%20abstract%20bg.svg");
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
