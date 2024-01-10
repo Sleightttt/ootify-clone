@@ -1,11 +1,14 @@
 .introduction {
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
-  justify-content: center;
+
   align-items: center;
   font-family: "Lexend", sans-serif;
-  /* background-image: url("../../icons/ootify-intro-bg.png"); */
+  background-image: url("../../icons/ootify-intro-bg.png");
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 .intro-h1 {
@@ -38,4 +41,7 @@
 .namaste {
   display: flex;
   align-self: center;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
