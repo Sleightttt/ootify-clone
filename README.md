@@ -1,6 +1,6 @@
 # OOTify clone by Brennan Cota
 
-This project is a clone of the website OOTify for demo purposes only. Built in React using create-react-app.
+This project is a clone of the website OOTify for demo purposes only. Built in React using only the base packages that come with create-react-app. This page was built within two days.
 
 ## Available Scripts
 
