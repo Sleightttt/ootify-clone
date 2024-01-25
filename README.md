@@ -2,6 +2,15 @@
 
 This project is a clone of the website OOTify for demo purposes only. Built in React using only the base packages that come with create-react-app. This page was built within two days.
 
+## Changelog
+
+1-24-23 Added plan to readme
+
+### Current tasks
+
+1. add more pages to website
+2. host website on render
+
 ## Available Scripts
 
 CD into the 'ootify' directory
