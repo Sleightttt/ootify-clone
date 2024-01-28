@@ -10,6 +10,7 @@ This project is a clone of the website OOTify for demo purposes only. Built in R
 
 1. add more pages to website
 2. host website on render or heroku or aws
+3. Add animations
 
 ## Available Scripts
 
