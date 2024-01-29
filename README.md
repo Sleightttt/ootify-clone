@@ -5,6 +5,7 @@ This project is a clone of the website OOTify for demo purposes only. Built in R
 ## Changelog
 
 1-24-23 Added plan to readme
+1-28-24 Implemented routing
 
 ### Current tasks
 
