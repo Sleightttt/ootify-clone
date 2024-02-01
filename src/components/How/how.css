@@ -46,8 +46,6 @@
 .drawer {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .drawer-h {
@@ -81,14 +79,14 @@
   justify-content: center;
   height: 540px;
   z-index: 1;
-  top: -10px; /* Adjust the value based on your preference */
+  top: -10px;
   animation: tiltFadeInAnimation 0.5s ease-in-out forwards;
-  opacity: 0; /* Start with opacity set to 0 */
+  opacity: 0;
 }
 
 .bottom-image {
   animation: tiltFadeInBottomAnimation 0.5s ease-in-out forwards;
-  opacity: 0; /* Start with opacity set to 0 */
+  opacity: 0;
 }
 
 @keyframes tiltFadeInAnimation {
@@ -100,7 +98,7 @@
 
   100% {
     transform: rotate(0deg);
-    opacity: 1; /* Ensure opacity remains 1 at the end */
+    opacity: 1;
   }
 }
 
@@ -112,7 +110,7 @@
 
   100% {
     transform: rotate(0deg);
-    opacity: 1; /* Ensure opacity remains 1 at the end */
+    opacity: 1;
   }
 }
 .bottom-image,
