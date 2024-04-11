@@ -11,6 +11,7 @@ import Tools from "./components/Tools";
 import Ourteam from "./components/Ourteam";
 import Footer from "./components/Footer";
 import "./app.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
