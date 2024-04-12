@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./navbar.css";
 import hamburger from "../../icons/menu.png";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isDropdownVisible, setDropdownVisibility] = useState(false);
@@ -27,19 +28,29 @@ const Navbar = () => {
   return (
     <>
       <div className="nav-container">
-        <div className="ootify-logo">
+        <NavLink to="/" className="ootify-logo">
           <img
             className="logo"
             src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/654046e04635d071fc8c9839_OOTify%20logo.svg"
             alt="blue ootify logo"
           />
-        </div>
+        </NavLink>
         <div className="anchor-container">
-          <div className="anchor-link">Higher Ed</div>
-          <div className="anchor-link">Enterprise</div>
-          <div className="anchor-link">Hospitals</div>
-          <div className="anchor-link">Children's Book</div>
-          <div className="anchor-link">Our Story</div>
+          <NavLink className="anchor-link" to="/HigherEd">
+            Higher Ed
+          </NavLink>
+          <NavLink to="Enterprise" className="anchor-link">
+            Enterprise
+          </NavLink>
+          <NavLink to="Hospitals" className="anchor-link">
+            Hospitals
+          </NavLink>
+          <NavLink to="ChildrensBook" className="anchor-link">
+            Children's Book
+          </NavLink>
+          <NavLink to="OurStory" className="anchor-link">
+            Our Story
+          </NavLink>
           <div
             className={`hamburger ${isDropdownVisible ? "active" : ""}`}
             onClick={(e) => {
