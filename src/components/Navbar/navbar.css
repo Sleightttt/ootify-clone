@@ -96,8 +96,6 @@
   border-bottom: 2px solid rgb(18, 85, 178);
 }
 
-/* Dropdown animations */
-
 @keyframes slideInFromTop {
   0% {
     transform: translateY(-10px);
