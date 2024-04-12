@@ -1,30 +1,24 @@
 import React from "react";
+import "./HigherEd.css";
 
 const HigherEd = () => {
   return (
     <>
-      <section className="mental-container">
-        <div className="round-right">
-          <div className="mental-header">
-            Mental healthcare is missing infrastructure.
-          </div>
-          <div className="mental-body">
-            We tackle this by taking care of our providers, providing access to
-            multiple evidence-based solutions, and ensuring a delightful
-            experience. We do this at scale with enterprises to{" "}
-            <span style={{ fontWeight: "bold" }}>
-              provide better outcomes and value-based, personalized care.
-            </span>
-          </div>
-        </div>
-        <div className="review-container">
-          <div className="review-name">
-            <img
-              alt="ravi's profile icon"
-              className="ravi"
-              src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64c0b9d556896cdab2bdb76f_ravi%20icon.png"
-            />
-            Ravi Sharma, Board Director & Co-Founder
+      <section>
+        <div className="he-container">
+          <div className="he-box">
+            <div className="he-text">
+              <div className="he-title1">For Higher Ed</div>
+              <div className="he-title2">
+                Your Customized Mental Health Ecosystem
+              </div>
+              <div className="he-title3">
+                We provide on-demand, personalized mental health support for
+                students to help schools improve retention, diversity, and
+                overall student success.
+              </div>
+            </div>
+            <div className="he-title-image"></div>
           </div>
         </div>
       </section>
