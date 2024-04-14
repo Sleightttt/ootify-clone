@@ -9,9 +9,6 @@
   margin-bottom: 0;
   height: 100%;
 }
-.he-text {
-  width: 100%;
-}
 
 .he-title1 {
   font-size: 1.6rem;
@@ -40,7 +37,7 @@
 }
 
 .he-text {
-  width: 50%;
+  width: 70%;
 }
 
 .begin-button2 {

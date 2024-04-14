@@ -1,5 +1,6 @@
 import React from "react";
 import "./HigherEd.css";
+import Footer from "../LandingPage/Footer";
 
 const HigherEd = () => {
   return (
@@ -236,6 +237,7 @@ const HigherEd = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };
