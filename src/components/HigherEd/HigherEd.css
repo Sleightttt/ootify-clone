@@ -5,7 +5,9 @@
 
 .he-box {
   display: flex;
-  margin: 10%;
+  margin: 8%;
+  margin-bottom: 0;
+  height: 100%;
 }
 .he-text {
   width: 100%;
@@ -13,7 +15,7 @@
 
 .he-title1 {
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 1rem;
   font-family: "Urbanist", sans-serif;
   color: rgb(18, 85, 178);
@@ -25,7 +27,7 @@
   font-family: "Lexend", sans-serif;
 }
 .he-title3 {
-  padding: 20px;
+  padding: 0px;
   padding-top: 5px;
   font-size: 1.2rem;
   text-align: start;
@@ -33,10 +35,161 @@
   font-weight: 500;
   line-height: 28px;
   align-self: center;
-  color: rgb(86, 86, 86);
+  color: rgb(17, 17, 17);
   font-family: "Urbanist", sans-serif;
 }
 
 .he-text {
   width: 50%;
+}
+
+.begin-button2 {
+  margin: 20px 0px;
+  height: 38px;
+  font-size: 15px;
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: rgb(18, 85, 178);
+  font-family: "Lexend", sans-serif;
+}
+
+.he-title-img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.reimagine-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 60px;
+}
+
+.re-header-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.re-header-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  text-align: center;
+  font-family: Urbanist, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.header {
+  color: #000;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Lexend, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.re-grid {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 100px 20px;
+  margin-top: 70px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+.re-about-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.re-title {
+  color: #000;
+  font-family: Urbanist, sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 24px;
+}
+
+.re-about-body {
+  font-family: Urbanist, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding-left: 10px;
+}
+
+.re-icon {
+  width: 10%;
+}
+
+.grid-icon {
+  width: 30px;
+}
+
+.re-about {
+  padding-top: 10px;
+}
+
+.student-box {
+  width: 50%;
+  margin: 2% 8%;
+}
+
+.student {
+  padding: 60px 60px;
+  background-color: #f1f8fa;
+  background-image: url("https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a261cc63c3cc6de661b2d0_student%20journey%20graphic.svg");
+  background-position: 80% 100%;
+  background-repeat: no-repeat;
+  background-size: auto 80%;
+}
+
+.offer {
+  margin: 8%;
+}
+
+.offer-box {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  text-align: center;
+  height: 100%;
+}
+.offer-icon {
+  max-width: 60%;
+}
+
+.offer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+}
+
+.offer-text {
+  align-items: flex-end;
+  font-family: Urbanist, sans-serif;
+  font-weight: 700;
+  margin-top: 10px;
 }
