@@ -36,19 +36,19 @@ const Navbar = () => {
           />
         </NavLink>
         <div className="anchor-container">
-          <NavLink className="anchor-link" to="/HigherEd">
+          <NavLink className="anchor-link" to="/higher-ed">
             Higher Ed
           </NavLink>
-          <NavLink to="Enterprise" className="anchor-link">
+          <NavLink to="enterprise" className="anchor-link">
             Enterprise
           </NavLink>
-          <NavLink to="Hospitals" className="anchor-link">
+          <NavLink to="hospitals" className="anchor-link">
             Hospitals
           </NavLink>
-          <NavLink to="ChildrensBook" className="anchor-link">
+          <NavLink to="childrens-book" className="anchor-link">
             Children's Book
           </NavLink>
-          <NavLink to="OurStory" className="anchor-link">
+          <NavLink to="our-story" className="anchor-link">
             Our Story
           </NavLink>
           <div
@@ -70,7 +70,7 @@ const Navbar = () => {
               ref={dropdownRef}
             >
               <div className="dropdown-link">
-                <span>Higher Ed</span>
+                <NavLink to="/higher-ed">Higher Ed</NavLink>
               </div>
               <div className="dropdown-link">
                 <span>Enterprise</span>
