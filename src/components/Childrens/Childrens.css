@@ -1,0 +1,181 @@
+.childrens-cont {
+  margin: 5%;
+}
+
+.book-header {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+  justify-content: space-between;
+}
+
+.book-img {
+  max-width: 40%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.book-text {
+  width: 50%;
+}
+
+.book-text-h {
+  color: #054dae;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Urbanist, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  border-bottom: #054dae 1px solid;
+  border-top: #054dae 1px solid;
+}
+
+.book-text-h2 {
+  color: #000;
+  margin-bottom: 20px;
+  font-family: Lexend, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-top: 10px;
+}
+
+.book-text-p {
+  color: #000;
+  margin-top: 10px;
+  font-family: Urbanist, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.author {
+  height: 100vh;
+  background-color: #f1f8fa;
+  background-image: url("https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64f123667bf232ee1cb4e891_authors%20bg.png");
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.author-box {
+  margin: 10%;
+}
+.author-box2 {
+  display: flex;
+  flex-direction: row;
+  height: 180px;
+  margin: 5% 0;
+}
+
+.meet-h {
+  color: #000;
+  margin-bottom: 40px;
+  font-family: Lexend, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  padding-top: 5%;
+}
+
+.author-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.author-h {
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-family: Urbanist, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.author-h2 {
+  color: #000;
+  margin-top: 10px;
+  font-family: Urbanist, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.reviews-praise {
+  margin-top: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.praise-h {
+  color: #000;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  margin-left: 40px;
+  font-family: Lexend, sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.praise-text {
+  width: 40%;
+  margin-right: 10%;
+}
+
+.praise-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 3%;
+}
+
+.praise-vid {
+  width: 40%;
+}
+
+.praise-h2 {
+  color: #000;
+  margin-top: 10px;
+  font-family: Urbanist, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.yt-vid2 {
+  width: 450px;
+  height: 300px;
+}
+
+.metta {
+  color: #000;
+  font-family: Urbanist, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.together {
+  display: flex;
+  flex-direction: row;
+  background-color: #f1f8fa;
+  padding: 8%;
+  justify-content: space-between;
+}
+
+.together-img {
+  max-width: 40%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.together-text {
+  width: 50%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
