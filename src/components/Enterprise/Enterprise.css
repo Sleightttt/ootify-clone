@@ -1,0 +1,13 @@
+.employee {
+  padding: 60px 60px;
+  background-color: #f1f8fa;
+  background-image: url("https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a8a8f128069a8bf0105660_Artboard%209.png");
+  background-position: 90% 100%;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.offer-icon-mood {
+  max-width: 60%;
+  max-height: 60%;
+}

@@ -1,22 +1,24 @@
 import React from "react";
-import "./HigherEd.css";
+import "./Enterprise.css";
+
 import Footer from "../LandingPage/Footer";
 
-const HigherEd = () => {
+const Enterprise = () => {
   return (
     <>
       <section>
         <div className="he-container">
           <div className="he-box">
             <div className="he-text">
-              <div className="he-title1">For Higher Ed</div>
+              <div className="he-title1">For Enterprise</div>
               <div className="he-title2">
                 Your Customized Mental Health Ecosystem
               </div>
               <div className="he-title3">
-                We provide on-demand, personalized mental health support for
-                students to help schools improve retention, diversity, and
-                overall student success.
+                We offer high-quality, low-cost virtual mental health support
+                for every employee to help promote a healthy work-life balance.
+                Drive productivity and retention through less sick days and more
+                on-demand mental health support.
               </div>
               <button className="begin-button2">Begin Your Journey</button>
             </div>
@@ -24,7 +26,7 @@ const HigherEd = () => {
               <img
                 alt="icon"
                 className="he-title-img"
-                src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a24a59410d9ffc964fb397_higher%20ed%20hero%20img.png"
+                src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a3c39233f66ba0faa29235_enterprise%20hero%20img.png"
               />
             </div>
           </div>
@@ -38,13 +40,13 @@ const HigherEd = () => {
         <div className="reimagine-cont">
           <div className="re-header-box">
             <div className="header">
-              Mental Health, Reimagined for Students.
+              Inclusive Mental Health Support for Teams.
             </div>
             <div className="re-header-about">
-              We understand that addressing mental health concerns can be
-              overwhelming. Connect your students with resources on campus that
-              meet their personal needs, fits their budget, and accommodates
-              their busy schedules.
+              From anxiety and burnout, to conflict resolution and community
+              building, our coaches, counselors, partners, and a nationwide
+              network of providers are here to empower your workforce to perform
+              at their best.
             </div>
           </div>
           <div className="re-about-box">
@@ -63,8 +65,8 @@ const HigherEd = () => {
                   </div>
                   <div className="re-about">
                     Enhance and augment the services already provided by your
-                    university. We work closely with university staff to ensure
-                    seamless integration of our software.
+                    company. We work closely with management to ensure seamless
+                    integration of our software.
                   </div>
                 </div>
               </div>
@@ -97,7 +99,7 @@ const HigherEd = () => {
                 </div>
                 <div className="re-about-body">
                   <div className="re-title">
-                    Keep Students Engaged & <br></br>Improve Outcomes
+                    Keep Employees Engaged & <br></br>Improve Outcomes
                   </div>
                   <div className="re-about">
                     Through gamification, progress tracking, and tailored
@@ -121,7 +123,7 @@ const HigherEd = () => {
                   <div className="re-about">
                     By analyzing user data, our algorithms can dynamically
                     generate personalized resources and interventions, providing
-                    students with support that is relevant to their specific
+                    employees with support that is relevant to their specific
                     mental health concerns and goals.
                   </div>
                 </div>
@@ -140,7 +142,7 @@ const HigherEd = () => {
                   </div>
                   <div className="re-about">
                     Maintain the trust and confidentiality necessary for
-                    students to seek support for their mental health needs with
+                    employees to seek support for their mental health needs with
                     our HIPAA compliant platform.
                   </div>
                 </div>
@@ -160,8 +162,8 @@ const HigherEd = () => {
                   <div className="re-about">
                     Mental health support should be accessible to all,
                     regardless of budget constraints. We offer flexible pricing
-                    options and customizable plans, allowing universities to
-                    tailor our services to fit their budgetary needs.
+                    options and customizable plans, allowing companies to tailor
+                    our services to fit their budgetary needs.
                   </div>
                 </div>
               </div>
@@ -170,15 +172,15 @@ const HigherEd = () => {
         </div>
       </section>
       <section>
-        <div className="student">
+        <div className="employee">
           <div className="student-box">
-            <div className="he-title2">The Student Journey Today</div>
+            <div className="he-title2">The Employee Experience</div>
             <div className="he-title3">
-              In the current educational landscape there is a strong emphasis on
-              mental health, providing a wealth of resources. However, this
-              abundance of options and lack of guidance leave students grappling
-              with choice-paralysis. We provide a solution by simplifying access
-              to the help they truly need.
+              In a time marked by increasing organizational burnout and mental
+              fatigue, prioritizing mental health services for employees is
+              paramount. We empower employees to proactively care for their
+              mental well-being, unlocking their full potential and optimizing
+              performance in the workplace.
             </div>
           </div>
         </div>
@@ -187,44 +189,43 @@ const HigherEd = () => {
         <div className="offer">
           <div className="he-title2">What We Offer</div>
           <div className="he-title3">
-            OOTify provides personalized recommendations to guide students
-            towards comprehensive mental health care. From HIPAA-compliant
-            tele-therapy to campus resources and our free mental health fluency
-            course, we empower students to thrive while optimizing institutional
-            support.
+            We guide employees towards accessible mental health care through
+            personalized recommendations. Whether it's tele-therapy sessions or
+            our mental health fluency course, we ensure that employees receive
+            the care they need to continue thriving.
           </div>
           <div className="offer-box">
             <div className="offer-item">
               <img
                 className="offer-icon"
                 alt="icon"
+                src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a8d8b43f548d8e49dab9dc_book-back.svg"
+              />
+              <div className="offer-text">Educational Content</div>
+            </div>
+            <div className="offer-item">
+              <img
+                className="offer-icon"
+                alt="icon"
                 src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a2650e9af1f6039ec1055f_%F0%9F%A6%86%20icon%20_hand%20strong_.svg"
               />
-              <div className="offer-text">Resilience Module</div>
+              <div className="offer-text">Leadership Coaching</div>
             </div>
             <div className="offer-item">
               <img
                 className="offer-icon"
                 alt="icon"
-                src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a2650eb5f10321a6ec4ee9_%F0%9F%A6%86%20icon%20_forest_.svg"
+                src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a8d8d128069a8bf030db2e_green-apple.svg"
               />
-              <div className="offer-text">Campus Resources</div>
+              <div className="offer-text">Snackable Coaching</div>
             </div>
             <div className="offer-item">
               <img
-                className="offer-icon"
+                className="offer-icon-mood"
                 alt="icon"
-                src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a2650e3653fd9622524dcf_%F0%9F%A6%86%20icon%20_live_.svg"
+                src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a8da14c2052d300e551bd0_smiling-face-with-smiling-eyes.svg"
               />
-              <div className="offer-text">Live Events</div>
-            </div>
-            <div className="offer-item">
-              <img
-                className="offer-icon"
-                alt="icon"
-                src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a2650f63c3cc6de6656206_%F0%9F%A6%86%20icon%20_conversation_.svg"
-              />
-              <div className="offer-text">Peer-to-Peer Support</div>
+              <div className="offer-text">Mood Trackers</div>
             </div>
             <div className="offer-item">
               <img
@@ -232,7 +233,7 @@ const HigherEd = () => {
                 alt="icon"
                 src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a2650e3a196175b6d50ef8_%F0%9F%A6%86%20icon%20_signature%20doc_.svg"
               />
-              <div className="offer-text">Short Term Counseling</div>
+              <div className="offer-text">Counseling Center</div>
             </div>
           </div>
         </div>
@@ -242,4 +243,4 @@ const HigherEd = () => {
   );
 };
 
-export default HigherEd;
+export default Enterprise;
