@@ -121,9 +121,27 @@
   font-weight: 600;
   line-height: 40px;
 }
+
 .praise-text {
   width: 40%;
   margin-right: 10%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .praise-name {
@@ -152,6 +170,7 @@
   margin: 0 3%;
   padding-bottom: 200px;
   padding-top: 40px;
+  height: 100%;
 }
 
 .praise-vid {
@@ -200,4 +219,28 @@
   align-content: center;
   justify-content: center;
   align-items: center;
+}
+
+.dot-box {
+  display: flex;
+  /* flex-direction: row; */
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  justify-content: center;
+}
+
+.dot {
+  margin: 3%;
+  width: 15px;
+  height: 15px;
+  opacity: 0.3;
+}
+
+.dot:hover {
+  cursor: pointer;
+}
+
+.active-dot {
+  opacity: 1;
 }

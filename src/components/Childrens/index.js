@@ -1,9 +1,38 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import "./Childrens.css";
 import Footer from "../LandingPage/Footer";
+import dot from "../../icons/black-circle.png";
 
 const Childrens = () => {
+  const [active, setActive] = useState(0);
+
+  const textBlocks = {
+    0: {
+      body: `"This is a great teaching tool for both parents and
+    practitioners. The very calm and easily digestible illustrations
+    keep children's attention while helping to tell the story in a
+    very non-judgemental and non-threatening way. I will be using
+    and recommending this book in my own practice!"`,
+      name: "MICHAEL LINDO, LCSW MSW",
+      footer: `Psychiatric Social Worker at LA County Department of Mental Health`,
+    },
+    1: {
+      body: `"An engaging and well-spun out story that will help children understand what their mom is going through when depressed. It points out concerns around stigma that can serve as barriers to getting care and it helps the reader to understand that it is OK—good even—to ask for help. Truly a must read for those interested in mental illness in parent/child relationships."`,
+      name: "ELYN R. SAKS",
+      footer:
+        "Associate Dean and Orrin B. Evans Professor of Law, Psychology, and Psychiatry and the Behavioral Sciences at the University of Southern California Gould Law School",
+    },
+    2: {
+      body: `"Understanding mental health issues can be tough, especially for children. Now, this beautifully written and illustrated book helps to dispel myths, bring understanding, remove stigma and shame, give children language to manage their emotions, and learn to ask for help. This timely book should be in every child’s bookshelf at home, school, or library."`,
+      name: "YOLIE FLORES",
+      footer: "President & CEO of Families In Schools",
+    },
+  };
+  const handleDotClick = (index) => {
+    setActive(index);
+  };
+
   return (
     <>
       <section>
@@ -103,18 +132,38 @@ const Childrens = () => {
               </div>
             </div>
             <div className="praise-text">
-              <div className="praise-h2">
-                "This is a great teaching tool for both parents and
-                practitioners. The very calm and easily digestible illustrations
-                keep children's attention while helping to tell the story in a
-                very non-judgemental and non-threatening way. I will be using
-                and recommending this book in my own practice!"
+              <div className="dot-box">
+                <img
+                  alt=""
+                  onClick={() => handleDotClick(0)}
+                  className={`dot ${active === 0 ? "active-dot" : ""}`}
+                  src={dot}
+                />
+                <img
+                  alt=""
+                  onClick={() => handleDotClick(1)}
+                  className={`dot ${active === 1 ? "active-dot" : ""}`}
+                  src={dot}
+                />
+                <img
+                  alt=""
+                  onClick={() => handleDotClick(2)}
+                  className={`dot ${active === 2 ? "active-dot" : ""}`}
+                  src={dot}
+                />
               </div>
-              <div className="praise-name">ELYN R. SAKS</div>
-              <div className="praise-footer">
-                Associate Dean and Orrin B. Evans Professor of Law, Psychology,
-                and Psychiatry and the Behavioral Sciences at the University of
-                Southern California Gould Law School
+              <div className={`praise-h2 ${active !== null ? "fade-in" : ""}`}>
+                {active !== null && textBlocks[active].body}
+              </div>
+              <div
+                className={`praise-name ${active !== null ? "fade-in" : ""}`}
+              >
+                {active !== null && textBlocks[active].name}
+              </div>
+              <div
+                className={`praise-footer ${active !== null ? "fade-in" : ""}`}
+              >
+                {active !== null && textBlocks[active].footer}
               </div>
             </div>
           </div>
