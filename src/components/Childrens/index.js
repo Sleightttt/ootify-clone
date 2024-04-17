@@ -61,15 +61,14 @@ const Childrens = () => {
             <div className="author-box2">
               <img src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a634a0b22dc2d1b5c2e3bf_headshot_nicole-p-500.png" />
               <div className="author-text">
-                <div className="author-h">RAVI SHARMA</div>
+                <div className="author-h">NICOLE JAIN</div>
                 <div className="author-h2">
-                  Ravi is a mental health activist, investor, entrepreneur, and
-                  alumni of the University of Southern California. He has lost
-                  two family members and a dear friend to suicide. After
-                  navigating the fragmented healthcare system for years, Ravi
-                  decided to build OOTify, a platform that he hopes will solve
-                  the structural and systemic problems in the mental healthcare
-                  landscape.
+                  Nicole has dedicated her career to public service and
+                  leadership specifically in the realm of K-12 public education
+                  policy and management. She obtained her Bachelor’s degree in
+                  Public Policy from the University of Southern California and
+                  her Master’s degree in Education Policy and Management from
+                  Harvard University.
                 </div>
               </div>
             </div>
