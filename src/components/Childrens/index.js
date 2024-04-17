@@ -10,6 +10,7 @@ const Childrens = () => {
         <div className="childrens-cont">
           <div className="book-header">
             <img
+              alt=""
               className="book-img"
               src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64eaff553feded5cf711226d_Our%20Mom%2C%20Our%20Superhero%20Book%20Cover.png"
             />
@@ -44,7 +45,10 @@ const Childrens = () => {
           <div className="author-box">
             <div className="meet-h">Meet the Authors</div>
             <div className="author-box2">
-              <img src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a634a0c05e94153359ad9a_headshot_ravi-p-500.png" />
+              <img
+                alt=""
+                src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a634a0c05e94153359ad9a_headshot_ravi-p-500.png"
+              />
               <div className="author-text">
                 <div className="author-h">RAVI SHARMA</div>
                 <div className="author-h2">
@@ -59,7 +63,10 @@ const Childrens = () => {
               </div>
             </div>
             <div className="author-box2">
-              <img src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a634a0b22dc2d1b5c2e3bf_headshot_nicole-p-500.png" />
+              <img
+                alt=""
+                src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a634a0b22dc2d1b5c2e3bf_headshot_nicole-p-500.png"
+              />
               <div className="author-text">
                 <div className="author-h">NICOLE JAIN</div>
                 <div className="author-h2">
@@ -81,10 +88,14 @@ const Childrens = () => {
           <div className="praise-cont">
             <div className="praise-vid">
               <iframe
-                title="YouTube Video"
-                className="yt-vid2"
-                src="https://www.youtube.com/embed/HXFlSvrDPuU"
-                allowFullScreen
+                width="100%"
+                height="250"
+                src="https://www.youtube.com/embed/G_2BOn6oDCw?si=wa5OAFp7yMv_mXsb"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
               ></iframe>
               <div className="metta">
                 Metta World Peace, Former NBA All-Star, entrepreneur, and Mental
@@ -99,8 +110,8 @@ const Childrens = () => {
                 very non-judgemental and non-threatening way. I will be using
                 and recommending this book in my own practice!"
               </div>
-              <div>ELYN R. SAKS</div>
-              <div>
+              <div className="praise-name">ELYN R. SAKS</div>
+              <div className="praise-footer">
                 Associate Dean and Orrin B. Evans Professor of Law, Psychology,
                 and Psychiatry and the Behavioral Sciences at the University of
                 Southern California Gould Law School
@@ -112,6 +123,7 @@ const Childrens = () => {
       <section>
         <div className="together">
           <img
+            alt=""
             src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/65b9fbd0741f447e33504ec9_nicole%20%26%20ravi%20polaroid-p-1080.png"
             className="together-img"
           />
