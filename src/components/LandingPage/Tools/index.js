@@ -15,7 +15,9 @@ const Tools = () => {
             the right set of tools that work for you is the most important
             aspect of navigating our way through life.
           </div>
-          <button className="begin-button">Begin Your Journey</button>
+          <a rel="noreferrer" href="https://www.ootify.com/" target="_blank">
+            <button className="begin-button">Begin Your Journey</button>
+          </a>
         </div>
         <div className="bf-animation">
           <iframe

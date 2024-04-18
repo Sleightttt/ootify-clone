@@ -121,10 +121,16 @@ const OurStory = () => {
                   <div className="mg-item-name">Hana Walsh</div>
                   <div className="mg-item-title">Chief Executive Officer</div>
                 </div>
-                <img
-                  alt=""
-                  src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
-                />
+                <a
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/hana-walsh/"
+                  target="_blank"
+                >
+                  <img
+                    alt=""
+                    src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
+                  />
+                </a>
               </div>
             </div>
             <div className="mg-item">
@@ -138,10 +144,16 @@ const OurStory = () => {
                   <div className="mg-item-name">Ravi Sharma</div>
                   <div className="mg-item-title">Board Director & Founder</div>
                 </div>
-                <img
-                  alt=""
-                  src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
-                />
+                <a
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/ravisharmasprofile/"
+                  target="_blank"
+                >
+                  <img
+                    alt=""
+                    src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
+                  />
+                </a>
               </div>
             </div>
             <div className="mg-item">
@@ -172,10 +184,16 @@ const OurStory = () => {
                   <div className="mg-item-name">Amie Le</div>
                   <div className="mg-item-title">Lead Designer</div>
                 </div>
-                <img
-                  alt=""
-                  src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
-                />
+                <a
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/amiettle/"
+                  target="_blank"
+                >
+                  <img
+                    alt=""
+                    src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
+                  />
+                </a>
               </div>
             </div>
             <div className="mg-item">
@@ -189,10 +207,16 @@ const OurStory = () => {
                   <div className="mg-item-name">Nicole Jain</div>
                   <div className="mg-item-title">Chief Strategy Officer</div>
                 </div>
-                <img
-                  alt=""
-                  src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
-                />
+                <a
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/nicolesharmajain/"
+                  target="_blank"
+                >
+                  <img
+                    alt=""
+                    src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
+                  />
+                </a>
               </div>
             </div>
             <div className="mg-item">
@@ -208,10 +232,16 @@ const OurStory = () => {
                     Behavior Science Ambassador
                   </div>
                 </div>
-                <img
-                  alt=""
-                  src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
-                />
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/berkebrown/"
+                >
+                  <img
+                    alt=""
+                    src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
+                  />
+                </a>
               </div>
             </div>
             <div className="mg-item">
@@ -225,10 +255,16 @@ const OurStory = () => {
                   <div className="mg-item-name"> Metta World Peace</div>
                   <div className="mg-item-title">Chief Impact Officer</div>
                 </div>
-                <img
-                  alt=""
-                  src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
-                />
+                <a
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/rartest/"
+                  target="_blank"
+                >
+                  <img
+                    alt=""
+                    src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
+                  />
+                </a>
               </div>
             </div>
             <div className="mg-item">
@@ -242,10 +278,16 @@ const OurStory = () => {
                   <div className="mg-item-name">Nathan Ampudia</div>
                   <div className="mg-item-title">Product Designer</div>
                 </div>
-                <img
-                  alt=""
-                  src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
-                />
+                <a
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/nathan-ampudia-767617173/"
+                  target="_blank"
+                >
+                  <img
+                    alt=""
+                    src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
+                  />
+                </a>
               </div>
             </div>
             <div className="mg-item">
@@ -259,10 +301,16 @@ const OurStory = () => {
                   <div className="mg-item-name">Ruth Williams Brinkley</div>
                   <div className="mg-item-title">Board Director</div>
                 </div>
-                <img
-                  alt=""
-                  src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
-                />
+                <a
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/ruthwilliamsbrinkley/"
+                  target="_blank"
+                >
+                  <img
+                    alt=""
+                    src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
+                  />
+                </a>
               </div>
             </div>
             <div className="mg-item">
@@ -276,10 +324,16 @@ const OurStory = () => {
                   <div className="mg-item-name">Fadi George Madanat</div>
                   <div className="mg-item-title">Board Director</div>
                 </div>
-                <img
-                  alt=""
-                  src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
-                />
+                <a
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/fadi-george-madanat-19600926/"
+                  target="_blank"
+                >
+                  <img
+                    alt=""
+                    src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
+                  />
+                </a>
               </div>
             </div>
             <div className="mg-item">
@@ -293,10 +347,16 @@ const OurStory = () => {
                   <div className="mg-item-name">Smita G. Bagla</div>
                   <div className="mg-item-title">Board Director</div>
                 </div>
-                <img
-                  alt=""
-                  src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
-                />
+                <a
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/sbagla/"
+                  target="_blank"
+                >
+                  <img
+                    alt=""
+                    src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
+                  />
+                </a>
               </div>
             </div>
             <div className="mg-item">
@@ -310,10 +370,16 @@ const OurStory = () => {
                   <div className="mg-item-name">Joe Andrea</div>
                   <div className="mg-item-title">Board Director</div>
                 </div>
-                <img
-                  alt=""
-                  src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
-                />
+                <a
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/joe-andrea-474b7a2/"
+                  target="_blank"
+                >
+                  <img
+                    alt=""
+                    src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a0d78065d155b1648864d9_icon%20_linkedin%20round_.svg"
+                  />
+                </a>
               </div>
             </div>
           </div>

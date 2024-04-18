@@ -18,7 +18,13 @@ const HigherEd = () => {
                 students to help schools improve retention, diversity, and
                 overall student success.
               </div>
-              <button className="begin-button2">Begin Your Journey</button>
+              <a
+                rel="noreferrer"
+                href="https://www.ootify.com/"
+                target="_blank"
+              >
+                <button className="begin-button">Begin Your Journey</button>
+              </a>
             </div>
             <div className="he-title-image">
               <img

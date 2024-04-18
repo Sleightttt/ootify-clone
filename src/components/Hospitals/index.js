@@ -18,7 +18,13 @@ const Hospitals = () => {
                 clinical and sub-clinical support so that your patients can
                 continue to thrive.
               </div>
-              <button className="begin-button2">Begin Your Journey</button>
+              <a
+                rel="noreferrer"
+                href="https://www.ootify.com/"
+                target="_blank"
+              >
+                <button className="begin-button">Begin Your Journey</button>
+              </a>
             </div>
             <div className="he-title-image">
               <img

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 import "./Childrens.css";
 import Footer from "../LandingPage/Footer";
@@ -184,7 +184,9 @@ const Childrens = () => {
               mission of de-stigmatizing mental health and illness through
               technology, content, and community.
             </div>
-            <button className="begin-button2">Buy The Book</button>
+            <a target="_blank" rel="noreferrer" href="https://a.co/d/hDkyLF1">
+              <button className="begin-button2">Buy The Book</button>
+            </a>
           </div>
         </div>
       </section>

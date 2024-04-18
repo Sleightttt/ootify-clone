@@ -14,7 +14,9 @@ const Introduction = () => {
           alt="arrow down"
           src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/649775d7eaa2f396e6a9e70b_Arrow.svg"
         />
-        <button className="begin-button">Begin Your Journey</button>
+        <a rel="noreferrer" href="https://www.ootify.com/" target="_blank">
+          <button className="begin-button">Begin Your Journey</button>
+        </a>
       </section>
     </>
   );

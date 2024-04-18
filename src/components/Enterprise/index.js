@@ -20,7 +20,13 @@ const Enterprise = () => {
                 Drive productivity and retention through less sick days and more
                 on-demand mental health support.
               </div>
-              <button className="begin-button2">Begin Your Journey</button>
+              <a
+                rel="noreferrer"
+                href="https://www.ootify.com/"
+                target="_blank"
+              >
+                <button className="begin-button">Begin Your Journey</button>
+              </a>
             </div>
             <div className="he-title-image">
               <img
