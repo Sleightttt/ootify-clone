@@ -45,3 +45,37 @@
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
 }
+
+@media screen and (max-width: 991px) {
+  .bf-container {
+    padding: 100px 20px;
+    flex-direction: column;
+  }
+
+  .bf-text {
+    margin: 20px;
+  }
+
+  .bf-header {
+    font-size: 36px;
+  }
+
+  .bf-body {
+    font-size: 16px;
+  }
+
+  .review-container {
+    width: 100%;
+  }
+  .bf-animation {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-self: center;
+  }
+
+  .bf-ani {
+    height: 300px;
+    width: 100%;
+  }
+}

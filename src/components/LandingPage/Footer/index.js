@@ -17,7 +17,7 @@ const Footer = () => {
 
           <div className="footer-links">
             <div className="footer-item">
-              <div className="footer-h">Company</div>
+              <div className="footer-h3">Company</div>
               <div
                 onClick={() => (window.location.href = "/our-story")}
                 className="footer-link"
@@ -27,7 +27,7 @@ const Footer = () => {
               <div className="footer-link">Careers (Coming Soon)</div>
             </div>
             <div className="footer-item">
-              <div className="footer-h">Products</div>
+              <div className="footer-h3">Products</div>
               <div
                 onClick={() => (window.location.href = "/higher-ed")}
                 className="footer-link"
@@ -54,7 +54,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="footer-item2">
-              <div className="footer-h">Get Connected</div>
+              <div className="footer-h3">Get Connected</div>
               <div className="logo-container2">
                 <a
                   href="https://www.facebook.com/OOTification/"
@@ -99,15 +99,15 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="copy">
-            <div>@Copyright information</div>
-            <div className="legal">
-              <div>HIPPA Compliant</div>
-              <div className="spacer">&nbsp;|&nbsp;</div>
-              <div>Terms of Service & Privacy Policy</div>
-              <div>&nbsp;|&nbsp;</div>
-              <div>Contact Us</div>
-            </div>
+        </div>
+        <div className="copy">
+          <div>@Copyright information</div>
+          <div className="legal">
+            <div>HIPPA Compliant</div>
+            <div className="spacer">&nbsp;|&nbsp;</div>
+            <div>Terms of Service & Privacy Policy</div>
+            <div>&nbsp;|&nbsp;</div>
+            <div>Contact Us</div>
           </div>
         </div>
       </section>

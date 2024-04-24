@@ -38,11 +38,13 @@ const Childrens = () => {
       <section>
         <div className="childrens-cont">
           <div className="book-header">
-            <img
-              alt=""
-              className="book-img"
-              src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64eaff553feded5cf711226d_Our%20Mom%2C%20Our%20Superhero%20Book%20Cover.png"
-            />
+            <div className="book-img-cont">
+              <img
+                alt=""
+                className="book-img"
+                src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64eaff553feded5cf711226d_Our%20Mom%2C%20Our%20Superhero%20Book%20Cover.png"
+              />
+            </div>
             <div className="book-text">
               <div className="book-text-h">
                 THE #1 CHOICE FOR YOUR FIRST MENTAL HEALTH BOOK
@@ -75,6 +77,7 @@ const Childrens = () => {
             <div className="meet-h">Meet the Authors</div>
             <div className="author-box2">
               <img
+                className="author-img"
                 alt=""
                 src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a634a0c05e94153359ad9a_headshot_ravi-p-500.png"
               />
@@ -93,6 +96,7 @@ const Childrens = () => {
             </div>
             <div className="author-box2">
               <img
+                className="author-img"
                 alt=""
                 src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a634a0b22dc2d1b5c2e3bf_headshot_nicole-p-500.png"
               />
@@ -185,7 +189,9 @@ const Childrens = () => {
               technology, content, and community.
             </div>
             <a target="_blank" rel="noreferrer" href="https://a.co/d/hDkyLF1">
-              <button className="begin-button2">Buy The Book</button>
+              <button className="begin-button2 begin-button3">
+                Buy The Book
+              </button>
             </a>
           </div>
         </div>

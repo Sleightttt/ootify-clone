@@ -1,18 +1,25 @@
 .footer {
   background-image: url("https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/649b62f93bac0fa01decd1ea_footer%20bg.svg");
   font-family: "Roboto", sans-serif;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70vh;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
   color: white;
-  margin: 5% 10%;
+  padding: 40px 40px 0;
   margin-bottom: 0;
 }
 
 .footer-h {
-  margin-top: 80px;
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -21,12 +28,21 @@
 }
 
 .footer-h2 {
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 44px;
   font-weight: bold;
 
   text-align: start;
   font-family: "Lexend", sans-serif;
+}
+
+.footer-h3 {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: start;
+  font-family: "Urbanist", sans-serif;
 }
 
 .footer-links {
@@ -75,9 +91,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 80px;
 
-  margin-bottom: 18px;
+  color: white;
 }
 
 .legal {
@@ -92,4 +107,70 @@
 .legal > div:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 991px) {
+  .footer-h2 {
+    font-size: 24px;
+  }
+
+  .footer-item {
+    margin-right: 5%;
+  }
+}
+
+@media screen and (max-width: 591px) {
+  .footer-container {
+    align-items: center;
+    text-align: center;
+  }
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-h2 {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  .footer-item {
+    margin: 0;
+  }
+
+  .footer-h {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .footer-h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .footer-link {
+    font-size: 16px;
+  }
+
+  .logo-container2 > a > img {
+    width: 20px;
+  }
+
+  .copy {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .legal {
+    flex-direction: column;
+    align-items: center;
+  }
 }

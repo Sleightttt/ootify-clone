@@ -11,3 +11,16 @@
   max-width: 60%;
   max-height: 60%;
 }
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 590px) {
+  .employee {
+    background-size: 60%;
+  }
+
+  .offer-box {
+    flex-wrap: wrap;
+  }
+}

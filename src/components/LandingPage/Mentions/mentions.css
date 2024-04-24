@@ -50,3 +50,13 @@
   aspect-ratio: 3/2;
   object-fit: contain;
 }
+
+@media screen and (max-width: 991px) {
+  .mentions-container {
+    height: 150px;
+  }
+
+  .mention-h {
+    font-size: 18px;
+  }
+}

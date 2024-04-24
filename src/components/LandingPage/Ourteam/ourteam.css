@@ -69,3 +69,55 @@
   font-family: "Urbanist", sans-serif;
   font-weight: 500;
 }
+
+@media screen and (max-width: 991px) {
+  .our-team {
+    padding: 100px 20px;
+    flex-direction: column;
+  }
+
+  .our-h {
+    font-size: 24px;
+  }
+
+  .ad-text {
+    margin: 20px;
+  }
+
+  .ad-h {
+    font-size: 28px;
+  }
+
+  .ad-text > p {
+    font-size: 16px;
+  }
+
+  .advisory-container {
+    width: 100%;
+  }
+  .advisor {
+    width: 100px;
+    height: 100px;
+  }
+
+  .ad-name {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .advisory-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .advisor {
+    width: 120px;
+    height: 120px;
+  }
+
+  .ad-text > p {
+    font-size: 12px;
+  }
+}

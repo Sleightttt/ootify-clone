@@ -10,9 +10,17 @@
 }
 
 .book-img {
-  max-width: 40%;
+  max-width: 100%;
   vertical-align: middle;
   display: inline-block;
+}
+
+.book-img-cont {
+  width: auto;
+  max-width: 45%;
+  min-width: 0;
+  flex: none;
+  margin-top: -40px;
 }
 
 .book-text {
@@ -22,7 +30,7 @@
 .book-text-h {
   color: #054dae;
   text-transform: uppercase;
-  margin-top: 10px;
+
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: Urbanist, sans-serif;
@@ -53,7 +61,7 @@
 }
 
 .author {
-  height: 100vh;
+  height: 80vh;
   background-color: #f1f8fa;
   background-image: url("https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64f123667bf232ee1cb4e891_authors%20bg.png");
   background-position: 50% 100%;
@@ -67,7 +75,7 @@
 .author-box2 {
   display: flex;
   flex-direction: row;
-  height: 180px;
+
   margin: 5% 0;
 }
 
@@ -243,4 +251,154 @@
 
 .active-dot {
   opacity: 1;
+}
+
+.author-img {
+  max-width: 20%;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 956px) {
+  .book-text-h {
+    font-size: 14px;
+  }
+
+  .book-text-h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .book-text-p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .author-box {
+    padding: 0 40px;
+    margin: 5% 0;
+  }
+
+  .meet-h {
+    font-size: 24px;
+  }
+
+  .author-h {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .author-h2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .author-img {
+    max-width: 24%;
+    margin-right: 20px;
+    object-fit: contain;
+  }
+
+  .praise-h2 {
+    font-size: 14px;
+  }
+
+  .praise-footer {
+    font-size: 14px;
+  }
+
+  .metta {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .author-box2 {
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .author-img {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .author-box {
+    padding: 0 20px;
+  }
+
+  .author {
+    height: 100%;
+  }
+
+  .together {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .together-img {
+    max-width: none;
+  }
+
+  .together-text {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .book-img-cont {
+    max-width: 100%;
+    align-self: center;
+  }
+  .book-header {
+    flex-direction: column;
+  }
+
+  .book-text {
+    width: 100%;
+  }
+
+  .book-text-h {
+    font-size: 12px;
+  }
+
+  .praise-cont {
+    flex-direction: column;
+  }
+
+  .praise-name {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .praise-footer {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .praise-vid {
+    width: 100%;
+  }
+
+  .praise-h {
+    margin-left: 0;
+    font-size: 24px;
+  }
+
+  .praise-h2 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .praise-text {
+    width: 100%;
+    margin: 0;
+    margin-top: 40px;
+  }
+
+  .reviews-praise {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .metta {
+    padding-top: 10px;
+  }
 }

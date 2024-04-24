@@ -1,7 +1,6 @@
 .how-section {
   display: flex;
   flex-direction: column;
-
   margin: 60px;
   font-family: "Roboto", sans-serif;
 }
@@ -116,4 +115,49 @@
 .bottom-image,
 .top-image {
   position: absolute;
+}
+
+@media screen and (max-width: 991px) {
+  .how-section {
+    margin: 20px;
+  }
+
+  .how-it-works {
+    margin: 20px;
+  }
+
+  .support-h {
+    font-size: 24px;
+    width: 300px;
+    height: 60px;
+  }
+
+  .drawer-container {
+    flex-direction: column;
+  }
+
+  .drawers {
+    width: 100%;
+  }
+
+  .drawer-pic {
+    width: 100%;
+  }
+
+  .drawer-body {
+    width: 80%;
+  }
+
+  .drawer-h {
+    margin-left: 20px;
+  }
+
+  .top-image {
+    height: 300px;
+  }
+
+  .bottom-image {
+    height: 300px;
+    position: relative;
+  }
 }

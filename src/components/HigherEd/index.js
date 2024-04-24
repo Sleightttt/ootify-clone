@@ -19,11 +19,14 @@ const HigherEd = () => {
                 overall student success.
               </div>
               <a
+                className="w"
                 rel="noreferrer"
                 href="https://www.ootify.com/"
                 target="_blank"
               >
-                <button className="begin-button">Begin Your Journey</button>
+                <button className="begin-button begin-button3">
+                  Begin Your Journey
+                </button>
               </a>
             </div>
             <div className="he-title-image">
@@ -37,6 +40,7 @@ const HigherEd = () => {
         </div>
       </section>
       <img
+        className="wavey"
         alt="icon"
         src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a24d0e93ad13ce309c206d_transition%20lines.svg"
       />

@@ -39,6 +39,7 @@ const Enterprise = () => {
         </div>
       </section>
       <img
+        className="wavey"
         alt="icon"
         src="https://assets-global.website-files.com/64960fe9d01ccfa44ea57cae/64a24d0e93ad13ce309c206d_transition%20lines.svg"
       />
