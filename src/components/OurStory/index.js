@@ -36,14 +36,13 @@ const OurStory = () => {
           </div>
           <div className="os-vid">
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/jI2TU0nPNng?si=knDMGlGEcBoDkzG6"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
+              className="os-vid-iframe"
             ></iframe>
           </div>
         </div>
