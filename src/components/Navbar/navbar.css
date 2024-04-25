@@ -7,6 +7,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+.dropdown-link > a:visited {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
 .anchor-container {
   font-size: 15px;
   width: 50%;
@@ -74,12 +79,13 @@
   margin: 5px;
 }
 
-.dropdown-link > span {
+.dropdown-link > a {
   border-bottom: 2px solid transparent;
+  text-decoration: none;
   transition: border-bottom 0.3s ease, transform 0.3s ease;
 }
 
-.dropdown-link > span:hover {
+.dropdown-link > a:hover {
   border-bottom: 2px solid rgb(18, 85, 178);
   transform: translateY(-2px);
 }

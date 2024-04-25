@@ -39,16 +39,16 @@ const Navbar = () => {
           <NavLink className="anchor-link" to="/higher-ed">
             Higher Ed
           </NavLink>
-          <NavLink to="enterprise" className="anchor-link">
+          <NavLink to="/enterprise" className="anchor-link">
             Enterprise
           </NavLink>
-          <NavLink to="hospitals" className="anchor-link">
+          <NavLink to="/hospitals" className="anchor-link">
             Hospitals
           </NavLink>
-          <NavLink to="childrens-book" className="anchor-link">
+          <NavLink to="/childrens-book" className="anchor-link">
             Children's Book
           </NavLink>
-          <NavLink to="our-story" className="anchor-link">
+          <NavLink to="/our-story" className="anchor-link">
             Our Story
           </NavLink>
           <div
@@ -73,16 +73,16 @@ const Navbar = () => {
                 <NavLink to="/higher-ed">Higher Ed</NavLink>
               </div>
               <div className="dropdown-link">
-                <span>Enterprise</span>
+                <NavLink to="/enterprise">Enterprise</NavLink>
               </div>
               <div className="dropdown-link">
-                <span>Hospitals</span>
+                <NavLink to="/hospitals">Hospitals</NavLink>
               </div>
               <div className="dropdown-link">
-                <span>Children's Book</span>
+                <NavLink to="/childrens-book">Children's Book</NavLink>
               </div>
               <div className="dropdown-link">
-                <span>Our Story</span>
+                <NavLink to="/our-story">Our Story</NavLink>
               </div>
             </div>
           </div>
