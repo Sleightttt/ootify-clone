@@ -37,7 +37,7 @@
   display: flex;
   align-items: center;
   height: 70px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(233, 241, 241);
 }
 
 .review-name {
@@ -51,4 +51,26 @@
 .ravi {
   padding: 0px 20px;
   height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .round-right {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .mental-header {
+    margin: 0px 10%;
+    font-size: 30px;
+  }
+  .mental-body {
+    margin: 14px 10%;
+    font-size: 18px;
+  }
+  .review-name {
+    font-size: 18px;
+  }
+  .ravi {
+    padding: 0px 10px;
+    height: 40px;
+  }
 }

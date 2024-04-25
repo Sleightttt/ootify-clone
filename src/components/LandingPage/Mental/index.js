@@ -7,7 +7,7 @@ const Mental = () => {
       <section className="mental-container">
         <div className="round-right">
           <div className="mental-header">
-            Mental healthcare is missing infrastructure.
+            "Mental healthcare is missing infrastructure."
           </div>
           <div className="mental-body">
             We tackle this by taking care of our providers, providing access to
