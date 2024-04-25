@@ -191,3 +191,9 @@
   display: flex;
   flex-direction: row;
 }
+
+@media screen and (max-width: 991px) {
+  .lift-h1 {
+    font-size: 30px;
+  }
+}
